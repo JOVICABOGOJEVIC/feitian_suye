@@ -7,8 +7,9 @@ background-color:blue;
 #sevices{
     font-family: 'Ubuntu', sans-serif;
 }
-img{
+.img1{
     box-shadow: 4px 4px 8px  black;
+   
 }
 hr{
     width:90%;
@@ -30,3 +31,6 @@ h2{
     left: 50%;
     transform: translate(-50%, -50%);
   }
+.image{
+padding:3%;
+}
