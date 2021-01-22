@@ -19,9 +19,9 @@
 </head>
 
 <body style="font-family: 'Ubuntu', sans-serif;">
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md  sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand " href="#"> <i class='fas fa-phone' style='font-size:24px'></i> 0233813***</a>
+            <a class="navbar-brand " href="#"> <i class='fas fa-phone' style='font-size:24px'></i> 0233813070</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
                 <span class="navbar-toggler-icon"></span></button>
 
@@ -47,6 +47,10 @@
 
                         <a class="nav-link" href="#">KONTAKT</a>
                     </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link text-dark"  href="#">ENG</a>
+                    </li>
 
                 </ul>
             </div>
@@ -70,6 +74,8 @@
             </div>
         </div>
     </div><hr>
+  
+    
     <div id="services" class="container-fluid text-center">
         <h2>Šta Vam nudimo?</h2>
                             <br>
@@ -95,6 +101,23 @@
             </div>
         </div>
     </div><hr>
+    <div class="col-8 offset-2">
+        <h2>Nasi proizvodi</h2>
+    
+    <button class="accordion">Regranulat PP +</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+    <button class="accordion">Regranulat HDPE +</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    
+    <button class="accordion">Regranulat ?? +</button>
+    <div class="panel">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div></div> <hr>
     <div class="container">
         <div class="row">
             <div class="col-lg-4 col-md-12">
@@ -128,11 +151,27 @@
          
         </div>
       </div>
-     
-      
-   
-    <hr>
     </div>
+<footer>
+  FeitianSuye, © 2021 
+</footer>
+        <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+
+    </script>
    </body>
 
 </html>
